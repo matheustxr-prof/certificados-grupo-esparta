@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fdfdfd;
+}
+
+.title-certificados {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #fdfdfd;
+}
+
+.ant-drawer-body {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.ant-drawer-header-title {
+    display: flex;
+    flex-direction: row-reverse;
+}
